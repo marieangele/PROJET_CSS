@@ -1,0 +1,57 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+</style>
+
+
+ul li{
+    list-style-type: none;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+background-image: url(screen_font.JPG);
+background-repeat: repeat-y;
+
+}
+.header{
+    background-color: blueviolet;
+    height: 300px;
+    padding-top: 10px;
+    margin-bottom: 40px;
+    border: 2px dashed yellow;
+
+}
+nav ul li{
+list-style-type: none;
+display: inline-block;
+padding: 10px;
+}
+
+ul li a{
+    color: white;
+    letter-spacing: 0.1rem;
+}
+
+ul li a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+.menu li{
+    float: left;
+    padding: 35px;
+}
+form{
+    padding: 35px;
+    text-align: right;
+}
+
+input [type="text"]{
+font-size: 20px;
+}
+.footer{
+    border: 2px dotted red;
+    background-color: aqua;
+    text-align: center;
+}
+
